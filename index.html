@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Valentine's Day Surprise</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Firework Sound -->
+    <audio id="firework-sound" preload="auto">
+      <source src="firework.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Custom Cursor -->
+    <div id="custom-cursor">❤️</div>
+
+    <!-- Main container -->
+    <div id="container">
+      <!-- Canvas for fireworks -->
+      <canvas id="animationCanvas"></canvas>
+
+      <!-- Message container -->
+      <div id="message-container">
+        <h1 id="main-message">Happy Valentine’s Day!</h1>
+        <p id="sub-message">Click to continue</p>
+      </div>
+
+      <!-- Love letter container (hidden initially) -->
+      <div id="love-letter-container">
+        <div id="big-heart">
+          <!-- Heart image -->
+          <img src="heart.png" alt="Heart" id="heart-image" />
+
+          <!-- Text inside the heart -->
+          <div id="love-letter">
+            <p>
+              My Love,
+              <br />
+              Happy Valentine’s Day, Khana, my beautiful princess!
+              <br />
+              I don’t think words will ever be enough to tell you how much you
+              mean to me, but I’ll try my best. Every single day, I find myself
+              falling for you all over again— in the way you laugh, the way you
+              smile, in the beautiful way your eyes sparkle, the way you see the
+              world, the way you just are. You are the most incredible person I
+              have ever known, and I am endlessly grateful to have you in my
+              life. Being with you feels like warmth on a cold day, like a
+              melody that never stops sounding beautiful. You make everything
+              brighter, softer, and more meaningful just by being yourself. I
+              love the way you think, the way you dream, and the way your
+              presence alone makes everything feel right. You make me want to be
+              the best version of myself, not because you ask me to, but because
+              loving you makes me feel like I can do anything. I hope you always
+              know that I am here for you, through every high and every low,
+              every moment big and small. No matter what happens, no matter
+              where life takes us, you will always have my heart. You are my
+              favorite person, my best friend, my love. Happy Valentine’s Day,
+              my love. Here’s to us, to every moment we’ve shared, and to the
+              many more to come. Btw, click on the small heart for a surprise!
+              <br />
+              Forever yours, Kent
+            </p>
+            <!-- Secret heart icon -->
+            <div id="secret-heart" title="Click me for a surprise!">💖</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
