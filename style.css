@@ -134,15 +134,15 @@ body {
   color: #ffd700;
   font-size: 1.5rem;
   line-height: 1.4;
-  font-family: "Lora", serif;
+  font-style: oblique;
   padding: 0.5rem;
   /* Optional: Light text-shadow for style */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 #love-letter p {
-  font-family: "Great Vibes", cursive;
   font-size: 1.7rem;
   margin-bottom: 1rem;
+  font-style: oblique;
   text-shadow: 0 0 5px rgba(179, 155, 19, 0.8),
     /* Gold glow */ 0 0 10px rgba(117, 103, 19, 0.6),
     0 0 15px rgba(0, 0, 0, 0.4);
