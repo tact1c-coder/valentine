@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Utility: create a new audio clone to stack sounds
   function playFireworkSound() {
-    const soundClone = fireworkSound.cloneNode();
-    soundClone.play().catch(() => {});
+    const soundClone = fireworkSound.cloneNode(true); // deep clone copies the <source>
+    soundClone.play().catch((err) => console.error("Audio play failed:", err));
   }
 
   function createFirework(x, y, colors) {
