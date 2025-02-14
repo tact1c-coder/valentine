@@ -227,8 +227,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const secretHeart = document.getElementById("secret-heart");
   secretHeart.addEventListener("click", (e) => {
     e.stopPropagation();
-    alert(
-      "Surprise! Btw, ur still def still smaller, my 'small', cute princess ;) "
-    );
+    alert("Btw, ur still def still smaller, my 'small', cute princess ;) ");
   });
 });
